@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/meathill-lecture/avoid-attrition.git"
   },
-  "homepage": "https://meathill-lecture.github.io/",
+  "homepage": "https://meathill-lecture.github.io/avoid-attrition/",
   "license": "(CC-BY-NC-ND-4.0 OR MIT)",
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -25,18 +25,18 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
+    "gulp-replace": "^0.6.1",
     "gulp-stylus": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
     "live-server": "^1.2.0",
-    "marked": "^0.3.6",
-    "reveal-markdown-compiler": "^1.2.0",
-    "run-sequence": "^1.2.2",
-    "webpack": "^3.3.0",
-    "webpack-stream": "^3.2.0"
+    "marked": "^0.3.12",
+    "reveal-markdown-compiler": "^2.0.0",
+    "run-sequence": "^2.2.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0",
+    "webpack-stream": "^4.0.0"
   },
   "dependencies": {
+    "babel-register": "^6.26.0",
     "font-awesome": "^4.7.0",
     "highlight.js": "^9.12.0",
     "meathill-reveal-theme": "^0.2.2",
